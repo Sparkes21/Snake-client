@@ -22,6 +22,12 @@ const handleUserInput = function(key) {
   if (key === 'd') {
     connection.write("Move: right")
   };
+  if (key === 'f') {
+    connection.write("Say: plz don't kill")
+  };
+  if (key === 'x') {
+    connection.write("Say: GET OUTTA THE WAY")
+  };
   if (key === '\u0003') {
     process.exit();
   }
