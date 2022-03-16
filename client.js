@@ -19,7 +19,10 @@ const connect = function () {
   conn.on('connect', () => {
     conn.write("Name: JDS");
   });
-
+  // conn.on('connect', () => {
+  //   conn.write("Move: up")
+  // });
+  
   return conn;
 };
 
